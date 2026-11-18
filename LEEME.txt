@@ -1,0 +1,18 @@
+INVERTIR INTELIGENTE - VERSIÓN WEB PWA
+
+Contenido:
+- index.html: aplicación adaptable a móviles.
+- manifest.webmanifest: configuración instalable.
+- sw.js: caché para uso sin conexión una vez cargada.
+- icon.svg: icono de la aplicación.
+
+IMPORTANTE:
+Para instalar como aplicación PWA, los archivos deben publicarse en un hosting HTTPS. Abrir el HTML directamente desde el almacenamiento del teléfono permite usar la calculadora, pero no habilita la instalación PWA ni el service worker.
+
+Uso:
+1. Publicar el contenido de esta carpeta en un hosting HTTPS.
+2. Abrir la dirección en Chrome en el ZTE o Redmi.
+3. Menú de Chrome > Instalar aplicación o Añadir a pantalla de inicio.
+4. Ingresar tasas verificadas manualmente en las opciones. La app no inventa ni descarga tasas de mercado.
+
+Las simulaciones usan una tasa anual constante y capitalización equivalente. No son predicciones ni asesoramiento financiero.
